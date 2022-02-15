@@ -1,11 +1,48 @@
-body{
-    
+body {
     font-family: 'Poppins', sans-serif;
 }
-.title h1{
+
+.title {
+    padding: 2%;
+    display: flex;
+}
+
+.title .left {
+    padding-left: 2%;
+    width: 100%;
+}
+
+.title .right {
+    padding-left: 2%;
+    width: 100%;
+    /*  age flex er dui part er width dite hbe 100% kore*/
+}
+
+.title .right img {
+    padding-left: 10%;
+    width: 80%;
+}
+
+.title h1 {
     font-size: 50px;
 }
 
-.title h1 .name-color{
+.title .name-color {
     color: orange;
+}
+
+.title .title-blog {
+    color: rgb(98, 98, 98);
+    text-align: justify;
+}
+
+.title .button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    margin-left: 1%;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
