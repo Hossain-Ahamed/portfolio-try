@@ -10,13 +10,13 @@ body {
     background-repeat: no-repeat;
 }
 
-.title .half-width {
+ .half-width {
     padding-left: 2%;
     width: 50%;
 }
 
 
-.title .half-width img {
+.half-width img {
     padding-left: 10%;
     width: 80%;
 }
@@ -29,12 +29,12 @@ body {
     color: orange;
 }
 
-.title .title-blog {
+ .title-blog {
     color: rgb(98, 98, 98);
     text-align: justify;
 }
 
-.title .button {
+ .button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     margin-left: 1%;
@@ -43,4 +43,23 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: white;
+}
+
+.dream-big{
+   display: flex;
+   background-image: url(images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+.dream-big .half-width img{
+   
+}
+
+.dream-big h1{
+    font-size: 50px;
+}
+
+.dream-big .title-blog{
+    padding-right: 10%;
 }
