@@ -31,7 +31,7 @@ body {
 
  .title-blog {
     color: rgb(98, 98, 98);
-    text-align: justify;
+    /* text-align: justify; */
 }
 
  .button {
@@ -52,9 +52,6 @@ body {
    background-position: right;
 }
 
-.dream-big .half-width img{
-   
-}
 
 .dream-big h1{
     font-size: 50px;
