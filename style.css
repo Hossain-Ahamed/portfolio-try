@@ -3,14 +3,26 @@ body {
     margin: 0;
 }
 
+section {
+    margin-bottom: 3%;
+}
+
+
+section h1 {
+    font-size: 50px;
+}
+
+.flexible-container {
+    display: flex;
+}
+
 .title {
     padding: 2%;
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
- .half-width {
+.half-width {
     padding-left: 2%;
     width: 50%;
 }
@@ -21,20 +33,18 @@ body {
     width: 80%;
 }
 
-.title h1 {
-    font-size: 50px;
-}
 
-.title .name-color {
+
+.color-orange {
     color: orange;
 }
 
- .title-blog {
+.title-blog {
     color: rgb(98, 98, 98);
     /* text-align: justify; */
 }
 
- .button {
+.button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     margin-left: 1%;
@@ -45,18 +55,13 @@ body {
     color: white;
 }
 
-.dream-big{
-   display: flex;
-   background-image: url(images/dream-bg.png);
-   background-repeat: no-repeat;
-   background-position: right;
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 
-.dream-big h1{
-    font-size: 50px;
-}
-
-.dream-big .title-blog{
+.dream-big .title-blog {
     padding-right: 10%;
 }
