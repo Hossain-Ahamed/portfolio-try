@@ -1,24 +1,22 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .title {
     padding: 2%;
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
-.title .left {
+.title .half-width {
     padding-left: 2%;
-    width: 100%;
+    width: 50%;
 }
 
-.title .right {
-    padding-left: 2%;
-    width: 100%;
-    /*  age flex er dui part er width dite hbe 100% kore*/
-}
 
-.title .right img {
+.title .half-width img {
     padding-left: 10%;
     width: 80%;
 }
